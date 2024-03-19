@@ -49,10 +49,11 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
   /*centralizando right and left
   somente elementos block:*/
   /*top,right and left,bottom*/
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
